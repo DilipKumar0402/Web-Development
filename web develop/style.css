@@ -1,0 +1,92 @@
+*
+{
+    margin : 0;
+    padding: 0;
+}
+
+header
+{
+ background-image: url(iron-man.jpg);
+ height : 100vh;
+ background-size: cover;
+ background-position: center;
+}
+
+.movies
+{
+    background-image: url(1134920.jpg);
+    height : 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main li
+{
+    display: inline-block;
+}
+
+.main li a
+{
+ color: darkred;
+ text-decoration: none;
+ padding: 5px 20px;
+ font-family: "Roboto", sans-serif;
+ font-size: 15px;
+}
+
+.main li a:hover
+{
+    border: 1px solid black;
+}
+
+.iron li
+{
+
+    color: paleturquoise;
+}
+
+.iron li.move
+{
+color: orangered ;
+
+}
+.hero
+{
+ position: absolute;
+ width: 1200px;
+ margin-left: 0px;
+ margin-top: 0px;
+}
+
+h1
+{
+    color: darkred;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.movies
+{
+    font-size: 22px;
+    padding: 10px;
+}
+
+.para
+{
+    font-family: "Roboto", sans-serif;
+    background-color: powderblue;
+    font-size: 18px;
+    position: absolute;
+}
+
+.para p b
+{
+    color: goldenrod;
+}
